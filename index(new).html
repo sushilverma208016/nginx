@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Title</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<p>Links:</p>
+
+<script type="text/javascript">
+var IP = window.location.href;
+
+var link1 = document.getElementsByClassName('Link A') ;
+link1.href = IP+"link-a/" ;
+
+var link2 = document.getElementsByClassName('Link B') ;
+link2.href = IP+"link-b/" ;
+
+var link3 = document.getElementsByClassName('Link C') ;
+link3.href = IP+"link-c/" ;
+
+var link4 = document.getElementsByClassName('Link D') ;
+link4.href = IP+"link-d/" ;
+</script>
+
+<br>
+1. <a href="link-a/" class='Link A'>Link A</a><br>
+
+2. <a href="link-b/" class='Link B'>Link B</a><br>
+
+3. <a href="link-c/" class='Link C' >Link C</a> <br>
+
+4. <a href="link-d/" class='Link D'>Link D</a> <br>
+</p>
+</body>
+</html>
